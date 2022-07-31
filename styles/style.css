@@ -1,0 +1,239 @@
+@import url(/styles/reset.css);
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   font-size: 14px;
+}
+
+.container {
+   max-width: 1230px;
+   padding: 0 30px 0 30px;
+   margin: 0 auto;
+}
+
+.title {
+   text-align: center;
+   font-weight: 600;
+   font-size: 34px;
+   line-height: 51px;
+}
+
+/*HEADER*/
+.header {
+   background-color: F1F1F1;
+   padding-top: 46px;
+   background-color: #F1F1F1;
+}
+
+.header__nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.nav__list {
+   display: flex;
+   column-gap: 50px;
+}
+
+.nav__button {
+   display: none;
+}
+
+.nav__link {
+   color: black;
+}
+
+.active {
+   color: #606060;
+}
+
+.logo {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 32px;
+   color: #000;
+   position: relative;
+   padding-right: 12px;
+   padding-bottom: 3px;
+}
+
+.logo::after {
+   content: "";
+   display: block;
+   width: 8px;
+   height: 8px;
+   background-color: #FDA300;
+   border-radius: 50%;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.header__row {
+   display: flex;
+   justify-content: space-between;
+
+   column-gap: 30px;
+   margin-top: 76px;
+}
+
+.header__content {
+   max-width: 500px;
+   margin-top: 124px;
+}
+
+.header__title {
+   font-size: 44px;
+   font-weight: 600;
+   color: #000;
+   margin-bottom: 20px;
+}
+
+.header__text {
+   font-size: 14px;
+   line-height: 28px;
+}
+
+
+/*MAIN*/
+/*SERVICE*/
+.services {
+   margin: 90px 0 90px 0;
+}
+
+.services__row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   column-gap: 30px;
+   row-gap: 60px;
+
+}
+
+.service__card {
+   max-width: 370px;
+   flex: 1 1 0;
+   min-width: 315px;
+}
+
+.service__title {
+   margin-top: 30px;
+   margin-bottom: 10px;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   text-transform: uppercase;
+}
+
+.service__card p {
+   font-weight: 100;
+   line-height: 28px;
+}
+
+/**PORTFOLIO*/
+.portfolio {
+   background-color: #F1F1F1;
+   padding: 90px 0;
+
+}
+
+.portfolio__card {
+   text-align: center;
+   margin-bottom: 90px;
+
+
+}
+
+.portfolio__img {}
+
+
+
+.portfolio__title {
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+.portfolio__name {
+   margin-top: 40px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   text-decoration: underline;
+
+}
+
+
+.portfolio__name a {
+   color: #000;
+}
+
+/*FOOTER*/
+
+.contact__card {
+   margin-top: 90px;
+   padding-bottom: 90px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.footer__title {
+   padding-bottom: 40px;
+}
+
+.footer__text {
+   margin-bottom: 40px;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 400;
+}
+
+.btn {
+   display: inline-block;
+   font-weight: 400;
+   font-size: 18px;
+   max-width: 181px;
+   color: white;
+   background-color: #000;
+   padding: 7.40px 23px;
+   border-radius: 30px;
+   transition: background-color 0.2s ease-in, top 0.2s ease-in;
+
+}
+
+.btn:hoover,
+.btn:focus {
+   background-color: #323232;
+}
+
+.btn:hover {
+   background-color: #323232;
+}
+
+.btn:active {
+   position: relative;
+   top: 1px;
+   background-color: #000;
+}
+
+.socials {
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 60px;
+}
+
+.social__img {}
+
+.footer__end {
+   margin-top: 40px;
+   font-weight: 400;
+   color: #828282;
+   font-size: 14px;
+
+}
